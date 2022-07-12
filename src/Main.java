@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int nachShchet = 50;
-        int sum = 1100;
+        int startingScore = 50;
+        int price = 1100;
         int bonus = 0;
-        int itogSchet = 0;
+        int finalScore = 0;
 
-        if (sum >= 1000) {
-            bonus = sum / 100;
+        if (price >= 1000) {
+            bonus = price / 100;
         }
-        itogSchet = nachShchet + bonus + sum;
-        System.out.println("Итоговый счет: " + itogSchet + ". Ваши бонусные рубли: " + bonus);
+        itogSchet = startingScore + bonus + price;
+        System.out.println("Итоговый счет: " + finalScore + ". Ваши бонусные рубли: " + bonus);
     }
 }
